@@ -1,0 +1,86 @@
+body {
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding: 0;
+    background: url('https://source.unsplash.com/1600x900/?romantic,background') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+    transition: all 0.3s ease;
+}
+
+#title {
+    font-size: 3em;
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+}
+
+main {
+    margin-top: 150px;
+    padding: 20px;
+    width: 100%;
+    max-width: 600px;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+#quiz-container {
+    text-align: left;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.question {
+    margin-bottom: 30px;
+}
+
+.question p {
+    margin: 0 0 10px;
+}
+
+.question button,
+.question input[type="text"] {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+    background: #f06c9b;
+    color: #fff;
+    transition: background 0.3s ease;
+}
+
+.question button:hover,
+.question input[type="text"]:focus {
+    background: #c44569;
+}
+
+.answer {
+    font-weight: bold;
+    color: #28a745;
+    margin-top: 10px;
+    display: none;
+}
+
+.shrink {
+    font-size: 1.5em !important;
+    padding: 10px !important;
+}
