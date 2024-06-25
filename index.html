@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy 2 Year Anniversary</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="header">
+        <h1 id="title">Happy 2 Year Anniversary</h1>
+    </header>
+    <main id="quiz-section">
+        <div id="quiz-container">
+            <h2>Quiz</h2>
+            <div class="question">
+                <p>Where did we meet?</p>
+                <button onclick="checkAnswer(this, 'Charles University in Prague')">Charles University in Prague</button>
+                <button onclick="checkAnswer(this, 'At a coffee shop')">At a coffee shop</button>
+                <button onclick="checkAnswer(this, 'At a concert')">At a concert</button>
+                <button onclick="checkAnswer(this, 'On a beach')">On a beach</button>
+                <p class="answer"></p>
+            </div>
+            <div class="question">
+                <p>When did I realise we were soulmates?</p>
+                <input type="text" placeholder="Type your answer" onkeydown="if(event.key === 'Enter') checkTypeAnswer(this, 'when we got home to Madrid and went to pick up some Lebanese food 40 minutes away, life with you just felt like peace')">
+                <p class="answer"></p>
+            </div>
+            <div class="question">
+                <p>How many countries have we been in together?</p>
+                <button onclick="checkAnswer(this, '5')">5</button>
+                <button onclick="checkAnswer(this, '7')">7</button>
+                <button onclick="checkAnswer(this, '9')">9</button>
+                <button onclick="checkAnswer(this, '11')">11</button>
+                <p class="answer"></p>
+            </div>
+            <div class="question">
+                <p>What game did we first play together?</p>
+                <input type="text" placeholder="Type your answer" onkeydown="if(event.key === 'Enter') checkTypeAnswer(this, 'Fortnite')">
+                <p class="answer"></p>
+            </div>
+            <div class="question">
+                <p>What was the first meal we shared together?</p>
+                <input type="text" placeholder="Type your answer" onkeydown="if(event.key === 'Enter') checkTypeAnswer(this, 'trick question, it’s those ice cream cones in Prague')">
+                <p class="answer"></p>
+            </div>
+            <div class="question">
+                <p>Where did we first become girlfriend and boyfriend?</p>
+                <button onclick="checkAnswer(this, 'Romantic getaway')">Romantic getaway</button>
+                <button onclick="checkAnswer(this, 'At a dinner')">At a dinner</button>
+                <button onclick="checkAnswer(this, 'In a Swamp')">In a Swamp</button>
+                <p class="answer"></p>
+            </div>
+            <div class="question">
+                <p>What was our first crackhead activity?</p>
+                <input type="text" placeholder="Type your answer" onkeydown="if(event.key === 'Enter') checkTypeAnswer(this, 'trying to get into a casino in Prague')">
+                <p class="answer"></p>
+            </div>
+            <div class="question">
+                <p>What was our last crackhead activity?</p>
+                <input type="text" placeholder="Type your answer" onkeydown="if(event.key === 'Enter') checkTypeAnswer(this, 'almost dying at the edge of a cliff surrounded by sheep while bad bunny was playing')">
+                <p class="answer"></p>
+            </div>
+            <div class="question">
+                <p>Who loves who more?</p>
+                <input type="text" placeholder="Type your answer" onkeydown="if(event.key === 'Enter') checkTypeAnswer(this, 'ME')">
+                <p class="answer"></p>
+            </div>
+            <div class="question">
+                <p>Where do I feel the safest in the world?</p>
+                <input type="text" placeholder="Type your answer" onkeydown="if(event.key === 'Enter') checkTypeAnswer(this, 'your arms')">
+                <p class="answer"></p>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
